@@ -9,10 +9,11 @@ body {
 .create{ 
     text-align: center;
     font-size: 48px;
-    text-align: center;
-
 }
 .temp {
+     text-align: center;
+font-size: 80px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 
 }
