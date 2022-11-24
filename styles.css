@@ -25,16 +25,38 @@ color: aquamarine;
     color: aliceblue;
 
 }
-.info 1{
-text-align: left;
+
+.button-section {
+    display: flex;
+    justify-content: center;
+}
+
+.learn-btn {
+    padding-right: 3rem;
+}
+
+.info {
+    font-weight: bold;
+    text-align: center;
+padding: 1rem;
+width: 7rem;
+border-radius: 21px;
 color: green;
-font-style: inherit;}
+font-style: inherit;
+background-color:white;
+}
 
 
-.info 2{
- text-align: right; 
- color: blue;
+.plus {
+    font-weight: bold;
+    text-align: center;
+ padding: 1rem;
+ width: 7rem;
+ border-radius: 21px;
+ color: #fff;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ background-color:rgb(116, 147, 214);
+
 }
 
 
