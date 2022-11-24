@@ -1,4 +1,7 @@
 body {
     background-image: url("meeting\ picture.jpeg");
     background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    filter: none;
    }
