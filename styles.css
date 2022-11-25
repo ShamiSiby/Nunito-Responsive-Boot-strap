@@ -30,17 +30,51 @@ body {
   background-position: center;
   margin-top: 0;
 }
-.menu {
-  float: right;
-  margin-top: 0;
-  menu>ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  menu > ul > li {
-    display: inline;
-  }
+
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo{
+  font-size: 42px;
+  font-weight: bolder;
+}
+
+.menu{
+  float:right;
+  padding:10px ;
+  position: absolute;
+  right: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
 
 .create {
