@@ -1,67 +1,101 @@
 body {
-    background-image: url("meeting\ picture.jpeg");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: 1500px 1000px;
-    filter: none;
-   }
-   
-.create{ 
-    text-align: center;
-    font-size: 48px;
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+
+  margin: 0;
 }
+.main-content {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000000;
+  height: 100vh;
+  margin: 0;
+}
+.main-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.3;
+  background-image: url("/images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin-top: 0;
+}
+.menu {
+  float: right;
+  margin-top: 0;
+  menu>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  menu > ul > li {
+    display: inline;
+  }
+}
+
+.create {
+  text-align: center;
+  font-size: 48px;
+  position: relative;
+}
+
 .temp {
-     text-align: center;
-font-size:40px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: aquamarine;
- font-weight: bold; 
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aquamarine;
+  font-weight: bold;
 }
 
-.message{
-    text-align: center;
-    font-size: 30;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: blue;
-
+.message {
+  text-align: center;
+  position: relative;
+  font-size: 30;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: blue;
 }
 
 .button-section {
-    display: flex;
-    justify-content: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .learn-btn {
-    padding-right: 3rem;
+  position: relative;
+  padding-right: 3rem;
 }
 
 .info {
-    font-weight: bold;
-    text-align: center;
-padding: 1rem;
-width: 7rem;
-border-radius: 21px;
-color: green;
-font-style: inherit;
-background-color:white;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+  width: 7rem;
+  border-radius: 21px;
+  color: green;
+  font-style: inherit;
+  background-color: white;
 }
-
 
 .plus {
-    font-weight: bold;
-    text-align: center;
- padding: 1rem;
- width: 7rem;
- border-radius: 21px;
- color: #fff;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- background-color:rgb(116, 147, 214);
-
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+  width: 7rem;
+  border-radius: 21px;
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(116, 147, 214);
 }
-
-
-
-
-
-   
